@@ -5,3 +5,4 @@ authors = ["laser <l@s3r.me>"]
 edition = "2018"
 
 [dependencies]
+ssd1306 = "0.2.4"
