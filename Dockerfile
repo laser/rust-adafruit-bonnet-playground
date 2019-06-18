@@ -9,8 +9,6 @@ RUN apt-get update \
 
 RUN git clone --progress --verbose https://github.com/raspberrypi/tools.git --depth=1 /pi-tools
 
-ENV CC=/pi-tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
-
 ENV PATH=/pi-tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin:$PATH
 
 RUN curl -sSf https://sh.rustup.rs \
