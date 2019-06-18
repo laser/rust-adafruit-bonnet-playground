@@ -4,7 +4,8 @@
 
 ## Capabilities
 
-.the time (parsed out of the HTTP response) on the screen. Not very impressive.
+So far, this program hits some JSON-returning web service in a loop and displays
+the time (parsed out of the HTTP response) on the screen. Not very impressive.
 
 ## Building and Deploying
 
